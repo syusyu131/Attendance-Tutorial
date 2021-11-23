@@ -20,5 +20,5 @@ class SessionsController < ApplicationController
   log_out if logged_in?
   flash[:success] = 'ログアウトしました。'
   redirect_to root_url
- end
+  end
 end
